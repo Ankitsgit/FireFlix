@@ -42,6 +42,7 @@
   text-decoration: none;
   color: white;
 }
+
 @media (max-width: 800px) {
   .title-cards {
     margin-top: 20px;
