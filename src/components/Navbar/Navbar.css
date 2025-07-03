@@ -74,9 +74,10 @@
 .navbar-profile:hover .dropdown {
   display: block;
 }
-/*
+
 .nav-dark {
   background: #141414;
+
 }
 @media (max-width: 800px) {
   .navbar {
@@ -96,4 +97,4 @@
   .navbar-right {
     gap: 10px;
   }
-} */
+}
