@@ -10,14 +10,6 @@ FireFlix is a full-stack, responsive Netflix clone built using **React.js**, **F
 |----------------------------------|----------------------------------|----------------------------------|
 | ![Home](./screenshots/home.png) | ![Login](./screenshots/login.png) | ![Movie](./screenshots/movie.png) |
 
-> _Place your images inside a `/screenshots` folder in your repo._
-
----
-
-## 🚀 Live Demo
-
-🌐 [https://fireflix.web.app](https://fireflix.web.app)  
-(or update with your deployed Firebase URL)
 
 ---
 
@@ -46,19 +38,20 @@ FireFlix is a full-stack, responsive Netflix clone built using **React.js**, **F
 ## 📦 Folder Structure
 
 FireFlix/
-├── public/
+├── public/ # Static assets
+├── screenshots/ # App screenshots for README
 ├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── pages/
-│   ├── context/
-│   ├── firebase.js
-│   └── App.js
-├── .env
-├── .gitignore
-├── package.json
-├── tailwind.config.js
-└── README.md
+│ ├── assets/ # Images, icons, etc.
+│ ├── components/ # Reusable React components
+│ ├── context/ # Auth context & state management
+│ ├── pages/ # Page components (Home, Login, etc.)
+│ ├── App.js # Main app component
+│ └── firebase.js # Firebase config & init
+├── .env # Environment variables (not committed)
+├── .gitignore # Ignored files & folders
+├── tailwind.config.js # TailwindCSS configuration
+├── package.json # Project metadata and dependencies
+└── README.md # Project documentation
 
 
 ---
